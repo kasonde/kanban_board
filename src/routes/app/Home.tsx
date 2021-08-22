@@ -7,7 +7,8 @@ interface HomeProps extends RouteComponentProps {}
 const Home = (_: HomeProps) => {
     return (
         <div>
-            <Container>
+            <Container style={{ paddingTop: '2rem' }}>
+                {/* The padding above is completely arbitrary :) */}
                 <Board />
             </Container>
         </div>
